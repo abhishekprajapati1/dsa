@@ -8,7 +8,7 @@ pub fn variables() {
     // we can suppress the uninitialized warning by using an underscore before the un initialized variable
     let _b: i32;
 
-    // by default each variable is un mutable
+    // by default each variable is immutable
     //number1 = 32; // uncomment this to get error;
 
     // we can make a variable mutable by using mut keyword
