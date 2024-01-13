@@ -1,5 +1,5 @@
-mod lesson_1;
+mod lession_3;
 
 fn main() {
-   lesson_1::variables();
+   lession_3::data_types_and_integers();
 }
