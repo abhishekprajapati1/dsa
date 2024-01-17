@@ -28,7 +28,7 @@ pub fn data_types_and_integers() {
         isize and usize
      */
 
-    // as you can see each variant is has two types i ie. signed and u ie. unsigned.
+    // as you can see each variant has two types i ie. signed and u ie. unsigned.
     // simply put if a value safely can be assumed as positive it is better to use u types of integer
     // but if signed actually matters for example +30 or -30 it is required to use i types of integer data type.
 
