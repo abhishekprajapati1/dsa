@@ -23,12 +23,12 @@ pub fn floating_point_numbers() {
     // it means rust cannot assume the data. we will have tell it what data we are dealing with.
 
     // multiplication
-    let product = 4 * 30;
+    let _product = 4 * 30;
 
     // division
-    let quotient = 56.7 / 32.2;
-    let truncated = -5 / 3; // Results in -1
+    let _quotient = 56.7 / 32.2;
+    let _truncated = -5 / 3; // Results in -1
 
     // remainder
-    let remainder = 43 % 5;
+    let _remainder = 43 % 5;
 }

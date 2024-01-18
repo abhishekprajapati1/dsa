@@ -1,5 +1,5 @@
-mod lesson_4;
+mod lesson_5;
 
 fn main() {
-   lesson_4::floating_point_numbers();
+   lesson_5::data_types_boolean();
 }
