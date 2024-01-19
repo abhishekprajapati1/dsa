@@ -1,5 +1,5 @@
-mod lesson_5;
+mod lesson_7;
 
 fn main() {
-   lesson_5::data_types_boolean();
+    lesson_7::data_types_tuples();
 }
