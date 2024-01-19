@@ -9,3 +9,4 @@
 - 05/01/2024 : Basics of variables and their scopes.
 - 13/01/2024 : Basics of integer values and their use cases.
 - 18/01/2024 : Basics of floating values and their use cases.
+- 19/01/2024 : Basics of Compund types and tuple data structure.
