@@ -1,5 +1,5 @@
-mod lesson_7;
+mod lesson_8;
 
 fn main() {
-    lesson_7::data_types_tuples();
+    lesson_8::get_month_name();
 }
