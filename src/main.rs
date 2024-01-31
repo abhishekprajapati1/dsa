@@ -1,5 +1,6 @@
-mod lesson_8;
+mod lesson_9;
 
 fn main() {
-    lesson_8::get_month_name();
+    lesson_9::control_flow::ifelse();
+    lesson_9::control_flow::whileloop();
 }
