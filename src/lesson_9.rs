@@ -32,7 +32,7 @@ pub mod control_flow {
         }
 
         // one more thing if you are from js background let me tell you that value as expression is not valid.
-        // so expression must evaluate to true else you are gonna get a panick.
+        // so expression must evaluate to true else you are gonna get a panic.
 
         // we can also use an if-else flow to a variable like below
         const CONDITION: bool = false; //
@@ -54,9 +54,55 @@ pub mod control_flow {
         };
 
         println!("{}", new_age_2);
+
+        // while assigning variables with ifelse chain we cannot assing different types to a single variable.
+        //let dynamic_var = if true {4} else {"abhishek"}; // this will cause rust to panic. we cannot do that.
     }
 
-    pub fn whileloop() {
-        println!("looping......")
+    pub fn rustloops_loop() {
+        // looping is process to repeat the execution of some code block untill a condition becomes false.
+        // rust provides several way to loop through a code block.
+
+        // 1. loop:
+
+        let mut count: i32 = 0;
+
+        // loop {
+        //     println!("number - {}", count);
+        //     count = count + 1;
+        // }
+
+        // the above commented block will runs for infinte times as we didn't mention a condition to stop it.
+
+        // loop keyword is useful when you want to return a value from the loop
+        let last_value: i32 = loop {
+            count = count + 1;
+            if count == 10 {
+                break count * 2; // the value after break is optional think the break as return statement for loop
+            }
+        };
+
+        print!("{}", last_value);
+
+        /*
+          Rust compiler treats a break expression and a return expression as having the value unit, or ().
+          remember unit from tuple chapter a unit tuple is an empty tuple.
+        */
+
+
+        // loop lables:
+
+        /* 
+            loop labels can be used to identifiy loops. this is usefull when you have multiple nested loop.
+            in general if you specify break or continue in the innermose loop, the break and continue will
+            take effect in the innermost loop right ?
+
+            with labels you can use break and continue with the label and the break and continue will take
+            effect in the loop whose label was used.
+        */
+
+        
+
+
     }
 }

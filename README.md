@@ -11,4 +11,5 @@
 - 18/01/2024 : Basics of floating values and their use cases.
 - 19/01/2024 : Basics of Compund types and tuple data structure.
 - 28/01/2024 : Basics of array structure and introduction to rust's memory safety principles.
-- 31/01/2024 : Basics of control flow with if-else statements and shorthand chains.
+- 31/01/2024 : Basics of control flow with if-else statements and chains.
+- 01/02/2024 : Basics of iterative codes and introduction to loop keyword.
