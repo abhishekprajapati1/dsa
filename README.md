@@ -13,3 +13,4 @@
 - 28/01/2024 : Basics of array structure and introduction to rust's memory safety principles.
 - 31/01/2024 : Basics of control flow with if-else statements and chains.
 - 01/02/2024 : Basics of iterative codes and introduction to loop keyword.
+- 02/02/2024 : Basics of while and for loops and loop labels.

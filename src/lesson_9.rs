@@ -82,17 +82,16 @@ pub mod control_flow {
             }
         };
 
-        print!("{}", last_value);
+        println!("{}", last_value);
 
         /*
           Rust compiler treats a break expression and a return expression as having the value unit, or ().
           remember unit from tuple chapter a unit tuple is an empty tuple.
         */
 
-
         // loop lables:
 
-        /* 
+        /*
             loop labels can be used to identifiy loops. this is usefull when you have multiple nested loop.
             in general if you specify break or continue in the innermose loop, the break and continue will
             take effect in the innermost loop right ?
@@ -101,8 +100,57 @@ pub mod control_flow {
             effect in the loop whose label was used.
         */
 
-        
+        'outerloop: loop {
+            println!("{}", count);
+            let mut count2: i32 = 1;
+            loop {
+                println!("{}", count2);
+                if count2 == 10 {
+                    break; // this will break the inner loop as we don't specify any label
+                }
 
+                if count == 9 {
+                    break 'outerloop; // this will break the outer loop
+                }
 
+                count2 += 1;
+            }
+
+            count -= 1; // since the counter is at 10. So we need to decrease it to make the second condition evaluates to true.
+        }
+
+        // labels are really interesting...
+    }
+
+    pub fn rustloops_while() {
+        /*
+            while loop is another way to loop  a block of code untill a certain condition is false.
+        */
+
+        let mut counter = 1;
+        while counter <= 10 {
+            println!("{counter}");
+            counter += 1;
+        }
+    }
+
+    pub fn rustloops_for() {
+        // we use for loop in rust to iterate over a collection in rust.
+        // and of course we can loop that using while loop as well.
+
+        let names: [&str; 2] = ["abhishek", "dileep"];
+
+        let mut index: usize = 0;
+        println!("Printing using while loop...");
+        while index < 2 {
+            println!("hello mr. {}", names[index].to_uppercase());
+            index += 1;
+        }
+
+        // but using for loop for this situation is much more convinient.
+        println!("Printing using for loop...");
+        for name in names {
+            println!("hello mr. {}", name.to_uppercase());
+        }
     }
 }
