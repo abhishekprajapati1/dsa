@@ -15,3 +15,4 @@
 - 01/02/2024 : Basics of iterative codes and introduction to loop keyword.
 - 02/02/2024 : Basics of while and for loops and loop labels.
 - 03/02/2024 : Basics of functions, statements and expressions in a block of code.
+- 04/02/2024 : Basics of ownership and memory management in rust. See [here](https://rust-book.cs.brown.edu/ch04-01-what-is-ownership.html#ownership-as-a-discipline-for-memory-safety).
