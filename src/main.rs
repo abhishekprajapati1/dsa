@@ -1,6 +1,6 @@
 // mod lesson_14;
-mod lesson_14;
+mod lesson_15;
 
 fn main() {
-    lesson_14::rust_borrowing_deep();
+    lesson_15::data_type_string();
 }
