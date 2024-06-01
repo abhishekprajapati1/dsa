@@ -2,8 +2,8 @@ pub fn expression_statement() {
     // in rust there is a notable differece between statement and expression.
     // and they behave differently.
 
-    let y = {
-        let x = 32;
+    let _y = {
+        let _x = 32;
     };
 
     // above block of code is assined to y. but y will get a value only and if only the block evaluates to a value.
@@ -22,7 +22,7 @@ pub fn expression_statement() {
         y + 4 // this is a value unlike the first line of this block what is an assignment hence it is a statement.
     };
 
-    println!("{}", z); // prints 36 on termeinal
+    println!("{}", z); // prints 36 on terminal
 
 
     // it means following should be a valid function
@@ -37,9 +37,9 @@ pub fn expression_statement() {
     // here comes the intersting point that if you put a semicolon after the last expression
     // it becomes a statement. :)
 
-    let n: i32 = {
+    let _n: i32 = {
         let y: i32 = 32;
-        y + 4;
+        y + 4
     };
 
     // above code is not valid as it does not return a value so a unit is assigned to n and the whole code becomes a error prone.

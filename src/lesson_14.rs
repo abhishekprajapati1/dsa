@@ -12,7 +12,7 @@ pub fn rust_borrowing_deep() {
     let a: i32 = *x; // * is the dereference operator and *x reads the value of x in the heap so a becomes 23;
     *x += 1; // we just modified the heap value so now x is pointing to the 23+1 = 24
     println!("{a}"); // a is still 23
-    println!("{x}");
+    println!("{x}"); // but the x is now pointing to the 24
 
     let r1: &Box<i32> = &x; // r1 points to x on stack
     let _b: i32 = **r1; // two dereference operator get use the heap value again how ? because first operator went for r's exact value that is x and second went for the x's value.
