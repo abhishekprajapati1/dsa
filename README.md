@@ -20,3 +20,4 @@
 - 08/02/2024 : Basics of borrowing in rust. Ownership day 2.
 - 09/02/2024 : Basics of dereference operator and its importance in rust. Ownership day 3.
 - 01/06/2024 : Undertand how data is stored in heap and stacks. What is copy and move means in Rust. Ownership day 4.
+- 02/06/2024 : Understand ownership transportation, its drawbacks and the importance  of references and borrowing. Ownership day 4.
