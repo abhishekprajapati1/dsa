@@ -93,7 +93,7 @@ pub mod control_flow {
 
         /*
             loop labels can be used to identifiy loops. this is usefull when you have multiple nested loop.
-            in general if you specify break or continue in the innermose loop, the break and continue will
+            in general if you specify break or continue in the innermost loop, the break and continue will
             take effect in the innermost loop right ?
 
             with labels you can use break and continue with the label and the break and continue will take

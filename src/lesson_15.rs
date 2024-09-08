@@ -1,6 +1,6 @@
 pub fn data_type_string() {
     // Going through this lesson will enhance our understanding of ownership.
-    // But there is a question why we need another type for storing string values at all? We can use &str for the sampe purpose.
+    // But there is a question why we need another type for storing string values at all? We can use &str for the same purpose.
 
     // rust: String literals are convinent, but they aren't suitable for every situation in which we may want to use text.
     // One reason is that they're immutable. Another is that not every string value can be known when we write our code: for example, what if we want to take user input and store it?
@@ -119,7 +119,7 @@ pub fn data_type_string() {
         entirely on the stack, so copies of the actual values are quick to make. That means there's no reason
         we would want to prevent x from being valid after we create the variable y.
         In other words, there's no difference between deep and shallow copying here, so calling clone
-        wouldn't do anything different from the usual shallow copying, and we can leave it out.        
+        wouldn't do anything different from the usual shallow copying, and we can leave it out.
     */
 
     // does that means we could use clone here as well?
