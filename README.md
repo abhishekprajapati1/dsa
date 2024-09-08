@@ -22,3 +22,4 @@
 - 01/06/2024 : Undertand how data is stored in heap and stacks. What is copy and move means in Rust. Ownership day 4.
 - 02/06/2024 : Understand ownership transportation, its drawbacks and the importance  of references and borrowing. Ownership day 4.
 - 07/09/2024 : Understand pattern matching and destructuring.
+- 08/09/2024 : Understand linear and binary search on array.
